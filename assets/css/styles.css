@@ -10,7 +10,6 @@ html {
 body {
     font-size: 1.6rem;
     font-family: Poppins;
-    background-color: #e6f0ff;
 }
 
 a {
@@ -38,6 +37,10 @@ a:hover {
     max-width: calc(100% - 48px);
     margin-left: auto;
     margin-right: auto;
+}
+
+.fixed-header {
+    background: #e6f0ff;
 }
 
 .navbar {
@@ -83,7 +86,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     background: #e6f0ff;
-    height: calc(100vh - 90px);
+    height: calc(100vh - 76px);
 }
 
 .hero-wrap .infor {
@@ -121,4 +124,48 @@ a:hover {
     position: absolute;
     bottom: 0;
     right: calc((100vw - 1110px) / 2 - 100px);
+}
+
+/* ======== Client ======== */
+.client {
+    margin-top: 79px;
+}
+
+.client .content-review {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-review .quantity-client {
+    margin-top: 43px;
+}
+
+.content-review .quantity-client .desc-company {
+    margin-top: 23px;
+}
+
+.content-review .rate {
+    margin-top: 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.content-review .rate .desc-rate {
+    margin-top: 18px;
+}
+
+.client .company {
+    padding-bottom: 40px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.client .company .main-company {
+    padding: 32px 42px 22px 42px;
+    background: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
 }
