@@ -25,7 +25,7 @@ a:hover {
     background-color: var(--primary-color);
     min-width: 98px;
     padding: 15px 22px;
-    border-radius: 8px;
+    border-radius: 12px;
     font-weight: 500;
     font-size: 1.4rem;
     text-align: center;
@@ -77,6 +77,7 @@ a:hover {
 .navbar .actions .sign-up {
     padding: 12px 22px;
     margin-left: 18px;
+    border-radius: 8px;
 }
 
 /* ======= Hero ======= */
@@ -168,4 +169,98 @@ a:hover {
     background: #ffffff;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
+}
+
+/* ======= Guides====== */
+.guides .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 160px;
+}
+
+.guides h2 {
+    position: relative;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 1;
+    text-align: center;
+    color: #000339;
+}
+
+.guides h2::before {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    display: inline-block;
+    width: 41px;
+    height: 4px;
+    background: #000339;
+    border-radius: 12px;
+}
+
+.guides .desc-intro {
+    margin-top: 20px;
+    align-self: center;
+    width: 460px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    text-align: center;
+    color: #5a6473;
+}
+
+.guides .guides-type {
+    display: flex;
+    justify-content: center;
+}
+
+.guides .guides-item {
+    padding: 70px 70px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guides-item .icon {
+    width: 48px;
+    height: 64px;
+}
+.guides-item .desc {
+    margin-top: 26px;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.1;
+    text-align: center;
+    color: #3b3c45;
+}
+
+.guides-item .text-click {
+    margin-top: 10px;
+    display: inline-block;
+    display: flex;
+    text-decoration: none;
+}
+
+.guides-item .text-click p {
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #0689ff;
+}
+
+.guides-item .arrow-right {
+    margin-left: 8px;
+}
+
+.guide-cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.guide-cta .btn {
+    min-width: 170px;
 }
