@@ -382,3 +382,145 @@ a:hover {
     letter-spacing: 0.01em;
     color: #4d4d52;
 }
+
+/* ======= Stats ====== */
+.stats {
+    margin-top: 75px;
+    padding: 50px 196px;
+}
+
+.stats .row {
+    display: flex;
+}
+
+.stats .img-block,
+.stats .info {
+    width: 50%;
+}
+
+.stats .img-block {
+    position: relative;
+}
+
+.stats .img-block .bg-present {
+    display: block;
+    margin-left: auto;
+    width: 400px;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.stats .trend {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 239px;
+    padding: 45px 22px 41px;
+    border-radius: 0px 0px 12px 12px;
+    background-color: #fff;
+}
+
+.stats .trend .qty-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats .trend .qty {
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: 0.01em;
+    color: #000339;
+}
+
+.stats .trend .desc {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #a7a7a7;
+}
+
+.stats .trend .separate {
+    margin-top: 26px;
+    height: 1.2px;
+    background: #e9e9e9;
+}
+
+/* Stats user left */
+.stats .img-block .list-user {
+    margin-top: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 14px;
+}
+.stats .img-block .user-group {
+    display: flex;
+}
+.stats .img-block .user {
+    width: 16px;
+    height: 16px;
+    margin-left: -3px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.stats .img-block .user:first-child {
+    margin-left: 0px;
+}
+/* Stats infor right */
+.stats .info {
+    padding: 79px 0 0 165px;
+}
+
+.stats .info .sub-title {
+    position: relative;
+    width: 269px;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1.29;
+    color: #000339;
+}
+
+.stats .info .sub-title::before {
+    left: 0;
+    top: -10px;
+    position: absolute;
+    display: block;
+    content: "";
+    width: 41px;
+    height: 4px;
+    background: #000339;
+    border-radius: 12px;
+}
+
+.stats .info .desc {
+    margin-top: 20px;
+    width: 309px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #5a6473;
+}
+
+/* Desc Quantity */
+.stats .des-qty {
+    justify-content: space-between;
+}
+
+.stats .row .qty-item {
+    margin-top: 110px;
+}
+
+.stats .des-qty .qty {
+    font-weight: 600;
+    font-size: 6.4rem;
+    color: #000000;
+}
+
+.stats .des-qty .desc {
+    margin-top: 22px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #7b8087;
+}
