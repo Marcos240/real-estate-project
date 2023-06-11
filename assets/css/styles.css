@@ -577,3 +577,59 @@ a:hover {
     bottom: 0;
     right: 221px;
 }
+
+/* ======= Footer ======== */
+.footer {
+    margin-top: 55px;
+    padding: 50px 0 58px;
+}
+
+.footer .row-top {
+    display: flex;
+    gap: 185px;
+}
+
+.footer .sub-title {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1c1c1d;
+}
+
+.footer .list-item {
+    margin-top: 42px;
+}
+
+footer .item,
+.footer .desc {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #7a7a7e;
+    white-space: nowrap;
+}
+
+.footer .desc {
+    margin-top: 42px;
+    line-height: 1.75;
+    white-space: normal;
+}
+
+.footer .social-list {
+    margin-top: 40px;
+    display: flex;
+    gap: 16px;
+}
+
+.footer .row-bottom {
+    margin-top: 81px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .copyright {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #c2c2c2;
+}
