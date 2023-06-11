@@ -12,6 +12,7 @@ body {
     font-family: Poppins;
 }
 
+/* ====== Common ====== */
 a {
     text-decoration: none;
 }
@@ -39,6 +40,14 @@ a:hover {
     margin-right: auto;
 }
 
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 2);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* ============= Header ============== */
 .fixed-header {
     background: #e6f0ff;
 }
@@ -130,15 +139,12 @@ a:hover {
 /* ======== Client ======== */
 .client {
     margin-top: 79px;
+    padding: 43px 0px 63px;
 }
 
 .client .content-review {
     display: flex;
     justify-content: space-between;
-}
-
-.content-review .quantity-client {
-    margin-top: 43px;
 }
 
 .content-review .quantity-client .desc-company {
@@ -157,7 +163,6 @@ a:hover {
 }
 
 .client .company {
-    padding-bottom: 40px;
     margin-top: 70px;
     display: flex;
     justify-content: space-between;
@@ -172,11 +177,15 @@ a:hover {
 }
 
 /* ======= Guides====== */
+.guides {
+    margin-top: 40px;
+    padding: 93px 0 79px;
+}
+
 .guides .content {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 160px;
 }
 
 .guides h2 {
@@ -263,4 +272,113 @@ a:hover {
 
 .guide-cta .btn {
     min-width: 170px;
+}
+
+/* ======= Fearture ====== */
+.fearture {
+    background: #f5fafe;
+    margin-top: 41px;
+}
+
+.fearture .content {
+    padding: 110px 0 110px;
+}
+
+.fearture .header .title {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 1;
+    color: #000339;
+}
+
+.fearture .header .detail {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.fearture .header .detail .desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #5a6473;
+}
+
+.fearture .header .detail .view-all {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.fearture .header .detail .text {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #0689ff;
+}
+
+.fearture .arrow-right {
+    width: 24px;
+    height: 8px;
+    margin-left: 8px;
+}
+
+.fearture .list {
+    margin-top: 70px;
+    gap: 30px;
+    display: flex;
+}
+
+.fearture .list .item {
+    flex: 1;
+    background: #ffffff;
+    border-radius: 12px;
+}
+
+.fearture .list .item .body {
+    padding: 17px 20px 23px;
+}
+
+.fearture .list .item .thumnail {
+    height: 227px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.fearture .item h3 {
+    margin-top: 17px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    color: #000339;
+}
+
+.fearture .item .desc {
+    margin-top: 11px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #a3a6ab;
+}
+
+.fearture .list .list-prop {
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fearture .list .list-prop .item {
+    display: flex;
+    align-items: center;
+}
+
+.fearture .list .list-prop .label {
+    margin-left: 11px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #4d4d52;
 }
