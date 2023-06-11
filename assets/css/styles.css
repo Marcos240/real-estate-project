@@ -506,6 +506,7 @@ a:hover {
 /* Desc Quantity */
 .stats .des-qty {
     justify-content: space-between;
+    padding: 0 32px;
 }
 
 .stats .row .qty-item {
@@ -523,4 +524,56 @@ a:hover {
     font-weight: 500;
     font-size: 1.8rem;
     color: #7b8087;
+}
+
+/* ======= Subscription ====== */
+.subs {
+    margin-top: 51px;
+}
+
+.subs .body {
+    position: relative;
+    margin-top: 90px;
+    display: flex;
+    height: 370px;
+    align-items: center;
+    border-radius: 20px;
+    background: #063183;
+}
+
+.subs .block-content {
+    width: 670px;
+    padding: 0px 80px;
+}
+
+.subs .sub-title {
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.subs .desc {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #ffffff;
+    opacity: 0.75;
+}
+
+.subs .btn {
+    margin-top: 20px;
+    min-width: 151px;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #002366;
+}
+
+.subs .app-icon {
+    position: absolute;
+    bottom: 0;
+    right: 221px;
 }
