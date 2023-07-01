@@ -104,7 +104,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     background: #e6f0ff;
-    height: calc(100vh - 58px);
+    height: calc(100vh - 94px);
 }
 
 .hero-wrap .infor {
